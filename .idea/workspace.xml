@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45dde3fb-04d3-4dad-8177-8209e35a7528" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/enquete/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/enquete/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/enquete/templates/enquetes/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/enquete/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/enquete/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,14 +14,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/enquete/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+            <state relative-caret-position="170">
+              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/enquete/templates/enquetes/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -44,6 +53,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -59,6 +69,7 @@
         <option value="$PROJECT_DIR$/enquete/admin.py" />
         <option value="$PROJECT_DIR$/enquete/urls.py" />
         <option value="$PROJECT_DIR$/enquete/views.py" />
+        <option value="$PROJECT_DIR$/enquete/templates/enquetes/index.html" />
       </list>
     </option>
   </component>
@@ -98,6 +109,12 @@
             <path>
               <item name="meuSite" type="b2602c69:ProjectViewProjectNode" />
               <item name="meuSite" type="462c0819:PsiDirectoryNode" />
+              <item name="enquete" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meuSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meuSite" type="462c0819:PsiDirectoryNode" />
               <item name="meuSite" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -108,6 +125,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -248,11 +266,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/enquete/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        <state relative-caret-position="170">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/enquete/templates/enquetes/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
         </state>
       </provider>
     </entry>

@@ -2,10 +2,17 @@ from django.shortcuts import render
 
 # Create your views here.
 from django.http import HttpResponse
+from .models import Pergunta
+from django.template import loader
 
 
 def index(request):
-    return HttpResponse("Vamos as perguntas?")
+    latest_question_list = Pergunta.objects.order_by('-pub_date')[:5]
+    template = loader.get_template('enquetes/index.html')
+    context = {
+        'latest_question_list': latest_question_list,
+    }
+    return HttpResponse(template.render(context, request))
 
 
 def detalhes(request, question_id):
