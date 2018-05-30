@@ -6,9 +6,9 @@ urlpatterns = [
     path('', views.index, name='index'),
 
     # ex: /polls/5/
-    path('<int:question_id>/', views.detalhes, name='detail'),
+    path('<int:question_id>/', views.detalhes, name='detalhes'),
     # ex: /polls/5/results/
-    path('<int:question_id>/resultados/', views.resultados, name='results'),
+    path('<int:question_id>/resultados/', views.resultados, name='resultados'),
     # ex: /polls/5/vote/
-    path('<int:question_id>/votar/', views.votar, name='vote'),
+    path('<int:question_id>/votar/', views.votar, name='votar'),
 ]

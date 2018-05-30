@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45dde3fb-04d3-4dad-8177-8209e35a7528" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/enquete/templates/enquetes/detalhes.html" beforeDir="false" afterPath="$PROJECT_DIR$/enquete/templates/enquetes/detalhes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/enquete/templates/enquetes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/enquete/templates/enquetes/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enquete/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/enquete/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enquete/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/enquete/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,20 +19,17 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/enquete/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detalhes.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="detalhes.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/enquete/templates/enquetes/detalhes.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+            <state relative-caret-position="136">
+              <caret line="8" column="69" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -46,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/enquete/templates/enquetes/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="70" selection-start-line="3" selection-start-column="70" selection-end-line="3" selection-end-column="70" />
+              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -59,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/enquete/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+              <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -87,10 +87,10 @@
         <option value="$PROJECT_DIR$/meuSite/settings.py" />
         <option value="$PROJECT_DIR$/enquete/models.py" />
         <option value="$PROJECT_DIR$/enquete/admin.py" />
-        <option value="$PROJECT_DIR$/enquete/urls.py" />
         <option value="$PROJECT_DIR$/enquete/views.py" />
-        <option value="$PROJECT_DIR$/enquete/templates/enquetes/detalhes.html" />
+        <option value="$PROJECT_DIR$/enquete/urls.py" />
         <option value="$PROJECT_DIR$/enquete/templates/enquetes/index.html" />
+        <option value="$PROJECT_DIR$/enquete/templates/enquetes/detalhes.html" />
       </list>
     </option>
   </component>
@@ -282,37 +282,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/enquete/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/enquete/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/enquete/views.py">
+    <entry file="file://$PROJECT_DIR$/enquete/templates/enquetes/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/enquete/templates/enquetes/detalhes.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/enquete/templates/enquetes/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="70" selection-start-line="3" selection-start-column="70" selection-end-line="3" selection-end-column="70" />
+        <state relative-caret-position="136">
+          <caret line="8" column="69" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
         </state>
       </provider>
     </entry>

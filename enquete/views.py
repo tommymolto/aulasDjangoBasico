@@ -5,8 +5,13 @@ from django.http import HttpResponse
 from .models import Pergunta
 from django.template import loader
 from django.shortcuts import get_object_or_404, render
-
-
+from django.http import HttpResponse, HttpResponseRedirect
+from django.shortcuts import get_object_or_404, render
+from django.urls import reverse
+from django.http import HttpResponseRedirect
+from django.shortcuts import get_object_or_404, render
+from django.urls import reverse
+from django.views import generic
 def index(request):
     latest_question_list = Pergunta.objects.order_by('-pub_date')[:5]
     template = loader.get_template('enquetes/index.html')
