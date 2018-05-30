@@ -27,9 +27,26 @@ def detalhes(request, question_id):
 
 
 def resultados(request, question_id):
-    response = "resultado da questao %s."
-    return HttpResponse(response % question_id)
+    question = get_object_or_404(Question, pk=question_id)
+    return render(request, 'enquetes/resultados.html', {'question': question})
 
 
 def votar(request, question_id):
-    return HttpResponse("cotando em  %s." % question_id)
+    print(request)
+    print(question_id)
+    # return HttpResponse("cotando em  %s." % question_id)
+    try:
+        selected_choice = Pergunta.opcao_set.get(pk=request.POST['choice'])
+    except (KeyError, Pergunta.DoesNotExist):
+        # Redisplay the question voting form.
+        return render(request, 'enquete/detalhes.html', {
+            'question': Pergunta,
+            'error_message': "Nao tema  aopcao.",
+        })
+    else:
+        selected_choice.votos += 1
+        selected_choice.save()
+        # Always return an HttpResponseRedirect after successfully dealing
+        # with POST data. This prevents data from being posted twice if a
+        # user hits the Back button.
+        return HttpResponseRedirect(reverse('enquetes:resultados', args=(question.id)))
