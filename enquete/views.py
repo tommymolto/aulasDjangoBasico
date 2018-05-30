@@ -4,6 +4,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from .models import Pergunta
 from django.template import loader
+from django.shortcuts import get_object_or_404, render
 
 
 def index(request):
@@ -16,7 +17,8 @@ def index(request):
 
 
 def detalhes(request, question_id):
-    return HttpResponse("pergunta %s." % question_id)
+    question = get_object_or_404(Pergunta, pk=question_id)
+    return render(request, 'enquetes/detalhes.html', {'question': question})
 
 
 def resultados(request, question_id):

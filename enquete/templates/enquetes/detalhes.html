@@ -1,0 +1,6 @@
+<h1>{{ question.texto }}</h1>
+<ul>
+{% for choice in question.opcao_set.all %}
+    <li>{{ choice.opcao_pergunta }}</li>
+{% endfor %}
+</ul>
